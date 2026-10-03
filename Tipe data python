@@ -1,7 +1,29 @@
+# Tipe data String
+nama = "Rifki"
 
-#CALENDAR
-import calendar 
-year=int(input("MASUKKAN TAHUN :"))
-month=int(input("MASUKKAN BULAN :"))
+# Tipe data Integer
+umur = 19
 
-print("\n",calendar.month(year,month))
+# Tipe data Float
+tinggi = 165.5
+
+# Tipe data Boolean
+mahasiswa = True
+
+# Tipe data List
+hobi = ["Menyanyi"]
+
+# Menampilkan data
+print("Nama:", nama)
+print("Umur:", umur)
+print("Tinggi:", tinggi)
+print("Mahasiswa:", mahasiswa)
+print("Hobi:", hobi)
+
+# Menampilkan tipe data
+print("\nTipe data:")
+print(type(nama))
+print(type(umur))
+print(type(tinggi))
+print(type(mahasiswa))
+print(type(hobi))
